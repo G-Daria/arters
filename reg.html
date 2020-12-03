@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title>Художники</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<style>
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+   background-color: #D8BFD8;
+}
+input[type=password], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+   background-color: #D8BFD8;
+}
+
+
+input[type=submit] {
+  width: 100%;
+  background-color: #9370DB;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #DA70D6;
+}
+
+div {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #483D8B;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #9370DB;
+}
+
+.active {
+  background-color: #DA70D6;
+}
+</style>
+</head>
+
+<body>
+  <div class="jumbotron text-center">
+  <h1 style="color:#4B0082;">Україські художники кінця ХІХ століття</h1>
+  <p style="color:#483D8B;">Мистецький світ минулого</p> 
+</div>
+  
+
+<ul>
+  <li><a  href="11.html">Головна</a></li>
+  <li><a href="#news">Теорія</a></li>
+  <li><a href="#newss">Новини</a></li>
+  <li style="float:right"><a class="active" href="reg.html">Регестрація</a></li>
+</ul>
+<br>
+
+<h3 align="center" style="color:#4B0082"><font face="colonna mt"><i>Регеструйтеся, щоб отримувати повідомлення з пізнавальними статтями та дослідженнями про художній світ минулого!</i></font></h3>
+
+<div>
+  <form action="/action_page.php">
+    <label for="fname">Ім'я</label>
+    <input type="text" id="fname" name="firstname" placeholder="Ваше ім'я..">
+
+    <label for="lname">Прізвище</label>
+    <input type="text" id="lname" name="lastname" placeholder="Ваше прізвище..">
+
+     <label for="fname">Електронна пошта, на яку Вам будуть приходити статті</label>
+    <input type="text" id="pos" name="pos" placeholder="Ваша пошта">
+
+     <label for="lname">Пароль</label>
+    <input type="password" id="password" name="password" placeholder="Ваш пароль..">
+
+
+
+    <label for="country">Країна</label>
+    <select id="country" name="country">
+      <option value="australia">Україна</option>
+      <option value="canada">Росія</option>
+      <option value="usa">Білорусь</option>
+    </select>
+  
+    <input type="submit" value="Відправити">
+  </form>
+</div>
+
+</body>
+</html>
