@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Художники</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<style>
+  ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #483D8B;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #9370DB;
+}
+
+.active {
+  background-color: #DA70D6;
+}
+#arters {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse; 
+  width: 90%;
+  margin: auto;
+}
+
+#arters td, #arters th {
+  border: 1px solid #380B61;
+  padding: 8px;
+}
+
+#arters tr:nth-child(even){background-color: #F8E0F1;}
+
+#arters tr:hover {background-color: #E2A9F3;}
+
+#arters th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #CC2EFA;
+  color: white;
+}
+
+</style>
+</head>
+<body>
+
+  <div class="jumbotron text-center">
+    <h1 style="color:#4B0082;">Україські художники кінця ХІХ століття</h1>
+    <p style="color:#483D8B;">Мистецький світ минулого</p> 
+  </div>
+  <ul>
+  <li><a href="index.html">Головна</a></li>
+  <li><a href="#news">Теорія</a></li>
+  <li><a href="#newss">Новини</a></li>
+   <li><a class="active" href="table.html">Хронотабличка</a></li>
+  <li style="float:right"><a href="reg.html">Регестрація</a></li>
+</ul>
+<br>
+<table id="arters" border="1" cellpadding="4" cellspacing="0">
+  <tr>
+    <th>Період</th>
+    <th>Художник</th>
+    <th>Робота</th>
+    <th>Рік написання</th>
+  </tr>
+  <tr>
+    <td rowspan="3">Кінець 18 ст.-перша половина 19 ст.</td>
+    <td>Василь Тропінін</td>
+    <td>"Дівчина з поділля"</td>
+    <td>1810-1820р</td>
+  </tr>
+  <tr>
+    <td>Тарас Шевченко</td>
+    <td>"Автопортрет", "Катерина", офрти з серії "Живописна Україна"</td>
+    <td>1840, 1842,1844 р</td>
+  </tr>
+  <tr>
+    <td>Василь Щтернберг</td>
+    <td>"Садиба Г.С. Тарнавського у Качанівці"</td>
+    <td>1837 р</td>
+  </tr>
+  <tr>
+    <td rowspan="5">Друга половина 19 ст.-початок 20 ст.</td>
+    <td>Ілля Рєпін</td>
+    <td>"Запорожці пишуть листа турецькому султанові"</td>
+    <td>1880-1891 р</td>
+  </tr>
+  <tr>
+    <td>Сергій Васильківський</td>
+    <td>"Козаки в степу"</td>
+    <td>1890 р</td>
+  </tr>
+  <tr>
+    <td>Микола Пимоненко</td>
+    <td>"Святочне ворожіння"</td>
+    <td>1888 р</td>
+  </tr>
+  <tr>
+    <td>Олександр Мурашко</td>
+    <td>"Двічина в червоному капелюсі"</td>
+    <td>1902-1903 р</td>
+  </tr>
+  <tr>
+    <td>іван Труш</td>
+    <td>"Портрет Лесі Українки"</td>
+    <td>1900 р</td>
+  </tr>
+</table>
+<br>
+
+</body>
+</html>
